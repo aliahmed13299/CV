@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #4A4A4A;
+    background-color: #EAEAEA;
+    padding: 40px 0;
+}
+
+.cv-container {
+    max-width: 680px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cv-header h1 {
+    font-size: 30px;
+    color: #333;
+}
+
+.cv-header p {
+    margin-top: 5px;
+    color: #777;
+    font-size: 16px;
+}
+
+section {
+    margin-top: 40px;
+}
+
+section h2 {
+    border-bottom: 2px solid #0056b3;
+    color: #0056b3;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+article h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.dates,
+.institution {
+    font-style: italic;
+    color: #666;
+    font-size: 14px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.cv-header h1,
+.cv-header p,
+section h2,
+article h3,
+article p,
+ul li {
+    transition: all 0.3s ease-in-out;
+}
+
+.cv-header h1:hover,
+.cv-header p:hover,
+section h2:hover,
+article h3:hover,
+article p:hover,
+ul li:hover {
+    transform: translateY(-3px);
+    color: #007bff;
+}
